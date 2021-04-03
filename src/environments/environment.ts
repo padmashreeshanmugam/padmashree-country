@@ -3,7 +3,9 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  apiCountry:'http://vocab.nic.in/rest.php',
+  apiOther :'https://countriesnow.space/api/v0.1/countries'
 };
 
 /*

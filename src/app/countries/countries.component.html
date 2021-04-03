@@ -1,0 +1,7 @@
+
+<div class="">
+    <button  *ngFor="let data of list"type="button" (click)="setCountry(data)" class="list-group-item list-group-item-action "  >
+        {{data.country.country_name}}
+    </button>
+</div>
+<app-state [dataset]="country"></app-state>
